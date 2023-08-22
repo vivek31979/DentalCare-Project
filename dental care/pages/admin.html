@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin login</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+
+    <style>
+        body{
+            background-color:aliceblue;
+            background-image: url("https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1168&q=80");
+        }
+        :root{
+            --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+        
+        }
+        #admin{
+            margin-top: 70px;
+            box-shadow: var(--box-shadow);
+            background-color: transparent;
+            
+        }
+        #sub{
+            margin-left: 35%;
+        }
+        #back{
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <a class="link-btn" id="back" href="../">back</a>
+    
+<section class="contact" id="admin">
+
+
+
+<form action="../pages/admin.php"  method="post">
+    
+    <h1 class="heading">Admin Login</h1>
+
+    <span>admin email :</span>
+    <input type="email" name="email" placeholder="Enter your Email" class="box" required>
+    <span>Password :</span>
+    <input type="password" name="password" placeholder="Enter Password" class="box" required>
+    <input type="submit" value="Login" name="submit" class="link-btn" id="sub">
+</form>
+</section>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>patient details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+
+        #patient
+        {
+                background-image: url("https://images.unsplash.com/photo-1606811856475-5e6fcdc6e509?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80");
+                background-repeat: no-repeat;
+                background-size: cover;
+                /* background:transparent; */
+
+            }
+        :root{
+            --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+        
+             }
+        #box{
+                margin-left:15%;
+             
+            }
+        #box1{
+                margin-left:30%;   
+            }
+        #sub{
+                float: right;
+            }
+
+           
+    </style>
+</head>
+<body>
+    
+
+<section class="contact" id="patient">
+
+
+<form action="patient.php"  method="post">
+    <h1 class="heading">patient details</h1><hr>
+    <span>patient name :</span>
+    <input type="text" name="pname" placeholder="Enter name" class="box" required>
+    <span>blood pressure :</span>
+    <input type="text" name="bp" placeholder="Enter BP rate" class="box" required>
+    <span>Mobile :</span>
+    <input type="number" name="mobile" placeholder="Enter number" class="box" required>
+    <span>Aadhar number :</span>
+    <input type="number" name="aadhar" placeholder="Enter aadhar" class="box" required>
+    <span>age :</span>
+    <input type="number" name="age" placeholder="Enter age" class="box" required>
+    <span>gender :</span><br><br>
+    <input type="radio" name="gender" id="box" value="male"><span>male</span>
+    <input type="radio" name="gender" id="box1" value="male"><span>female</span><br><br>
+    <span>body temperature :</span>
+    <input type="text" name="temperature" placeholder="Enter temperature" class="box" required>
+    <span>visited date :</span>
+    <input type="datetime-local" name="vdate" class="box">
+    <a class="link-btn"  href="adminpage.html">back</a>
+    <input type="submit" value="submit" name="submit1" class="link-btn" id="sub">
+    
+</form>
+
+</section>
+
+
+
+</body>
+</html>
