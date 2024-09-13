@@ -10,6 +10,8 @@ A admin panel is there where a admin can see all the appointment details and adm
 ![Screenshot 2023-08-17 033517](https://github.com/user-attachments/assets/f22bca34-4806-42be-8a79-76765b5bf99e)
 ![Screenshot 2023-08-17 033541](https://github.com/user-attachments/assets/e46eaae5-ff9b-4d6d-9736-bf2ac511868c)
 ![Screenshot 2023-08-17 033618](https://github.com/user-attachments/assets/ea1c5f5d-1d76-4e46-a230-f5f4d008227a)
+![appointment](https://github.com/user-attachments/assets/79058c7e-ffdb-4776-b326-e60a48453c41)
+![patient](https://github.com/user-attachments/assets/4d898452-9f7a-464e-9ff2-d53ade8a87f5)
 
 
 
