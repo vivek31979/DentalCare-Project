@@ -11,7 +11,7 @@ A admin panel is there where a admin can see all the appointment details and adm
 ![Screenshot 2023-08-17 033541](https://github.com/user-attachments/assets/e46eaae5-ff9b-4d6d-9736-bf2ac511868c)
 ![Screenshot 2023-08-17 033618](https://github.com/user-attachments/assets/ea1c5f5d-1d76-4e46-a230-f5f4d008227a)
 ![Screenshot 2023-08-17 110103](https://github.com/user-attachments/assets/d04e7de9-3901-4d8e-a218-26cd19eca2b9)
-![Screenshot 2023-08-17 110130](https://github.com/user-attachments/assets/5065d851-3114-40a5-beda-0f578fff8d14)
+
 
 
 
